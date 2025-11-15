@@ -44,7 +44,7 @@ BitXoma propone un enfoque **modular, abierto, sostenible y escalable**:
 
 ### **🌱 Componente de Economía Circular: Proyecto Yaqueline**
 
-**[Yaqueline](https://github.com/xtatikmel/yaqueline)** es nuestro sistema de reciclaje integrado que transforma envases PET/PETG en filamento 3D de calidad para fabricar las prótesis.
+**[PetgRecicler](https://github.com/xtatikmel/yaqueline)** es nuestro sistema de reciclaje integrado que transforma envases PET/PETG en filamento 3D de calidad para fabricar las prótesis.
 
 #### Proceso de Reciclaje
 1. **Recolección**: Envases PET/PETG post-consumo (botellas, contenedores)
@@ -216,19 +216,19 @@ Por cada 1,000 prótesis fabricadas con BitXoma:
 
 ## 💼 Oportunidades de Financiamiento
 
-### **Corto Plazo (3-6 meses) - $10,000-30,000 USD**
+### **Corto Plazo (3-6 meses) - 
 - Grants de innovación social y sostenibilidad
 - Fondos verdes y economía circular (MinAmbiente Colombia)
 - Competencias de emprendimiento tech + impacto ambiental
 - **Uso**: Escalar producción de Yaqueline, validación con 20 usuarios
 
-### **Mediano Plazo (6-18 meses) - $50,000-200,000 USD**
+### **Mediano Plazo (6-18 meses) - 
 - Programas USAID en innovación social + sostenibilidad
 - Grants de fundaciones (Gates Foundation, Ashoka, Echoing Green)
 - Financiamiento de startups B-Corp / impact investors
 - **Uso**: 5 centros de reciclaje-fabricación regionales, ensayo clínico formal
 
-### **Largo Plazo (18+ meses) - $500,000-2M USD**
+### **Largo Plazo (18+ meses) - 
 - Producción escalable y distribución comercial
 - Partnerships con manufactura sustentable
 - Bonos verdes y financiamiento climático
