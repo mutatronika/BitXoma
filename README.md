@@ -177,11 +177,11 @@ Si crees en esta visión y quieres colaborar:
 | Hito | Fecha | Estado |
 |------|-------|--------|
 | Prototipo funcional de mano | Nov 2025 | ✅ Completado |
-| Validación con 5 usuarios | Ene 2026 | ⏳ En progreso |
-| Dataset propio publicado | Mar 2026 | ⏳ Planificado |
-| Primer paper científico | May 2026 | ⏳ Planificado |
-| Integración de IA embebida | Ago 2026 | ⏳ Planificado |
-| Validación clínica formal | Dec 2026 | ⏳ Planificado |
+| Validación con 5 usuarios | ------ | ⏳ En progreso |
+| Dataset propio publicado | ------ | ⏳ Planificado |
+| Primer paper científico | ------ | ⏳ Planificado |
+| Integración de IA embebida | ------ | ⏳ Planificado |
+| Validación clínica formal | ------ | ⏳ Planificado |
 
 ---
 
