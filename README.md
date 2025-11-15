@@ -97,7 +97,7 @@ BitXoma se basa en literatura académica y proyectos validados:
 
 ## 🎓 Equipo
 
-- **Desarrollador Principal**: [Tu Nombre], Ingeniero de Sistemas / Electrónica
+- **Desarrollador Principal**: Jeferson Guevara Garcia, Tecnico Electrónica General e Industrial, Estudiante Ingenieria Mecatronica
 - **Institución Base**: Instituto Tecnológico Metropolitano (ITM), Medellín - Colombia
 - **Colaboradores Potenciales**: Universidades, hospitales, makerspaces, comunidad open-source
 
@@ -167,7 +167,7 @@ Si crees en esta visión y quieres colaborar:
 - **Organizaciones sociales**: Distribución, capacitación, apoyo comunitario
 - **Inversionistas**: Funding para escalamiento
 
-📧 **Contacto**: [tu-email@itm.edu.co]  
+📧 **Contacto**: [jefersonguevara245999@correo.itm.edu.co]  
 🔗 **GitHub**: [github.com/bitxoma] (próximamente)
 
 ---
@@ -225,8 +225,8 @@ BitXoma está comprometido con:
 **Instituto Tecnológico Metropolitano - ITM**  
 Medellín, Colombia  
 
-📧 Email: [tu-email@itm.edu.co]  
-🔗 LinkedIn: [tu-perfil]  
+📧 Email: [jefersonguevara245999@correo.itm.edu.co]  
+🔗 LinkedIn: [https://www.linkedin.com/in/jeferson-guevara-garcia-393bb210b/]  
 🌐 Web: [bitxoma.org] (próximamente)  
 
 ---
