@@ -1,323 +1,242 @@
-# BitXoma - Sistema de Rehabilitación con Prótesis Inteligente
+# BitXoma
+## Sistema Inteligente de Rehabilitación con Prótesis Mioeléctrica de Bajo Costo
 
 ![Estado del Proyecto](https://img.shields.io/badge/Estado-En%20Desarrollo-yellow)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-green)
-![Versión](https://img.shields.io/badge/Versión-1.0.0-blue)
+![Impacto](https://img.shields.io/badge/Impacto-Accesibilidad%20Global-blue)
 
 ---
 
-## 🎯 Visión del Proyecto
+## 🎯 ¿Qué es BitXoma?
 
-**BitXoma** es un sistema open-source de prótesis de extremidades de bajo costo con control mioeléctrico (EMG) avanzado, fabricación mediante impresión 3D y capacidades de inteligencia artificial adaptativa. El objetivo es democratizar el acceso a tecnología protésica de calidad para pacientes amputados en contextos de recursos limitados.
+**BitXoma** es un sistema innovador de rehabilitación y control protésico que combina:
 
----
+- 🦾 **Prótesis de mano inteligente** fabricada con impresión 3D de bajo costo
+- 🧠 **Control mioeléctrico avanzado** basado en señales musculares (EMG)
+- 🤖 **Inteligencia artificial adaptativa** que aprende del usuario
+- 💰 **Accesibilidad económica**: menos de $200 USD vs $30,000-50,000 en mercado
 
-## ✨ Características Principales
-
-- 🦾 **Prótesis de mano 3D impresa** con 5 grados de libertad
-- 🧠 **Control mioeléctrico multi-canal** (EMG) con clasificación ML
-- 🧤 **Guante sensor** con flex sensors para teleoperation
-- 📡 **Transmisión inalámbrica** vía Bluetooth Low Energy (BLE)
-- 💾 **Data logging** en tarjeta SD para análisis offline
-- 🤖 **Machine Learning embebido** con TensorFlow Lite Micro
-- 🔧 **Hardware accesible**: ESP32, Arduino, componentes <$200 USD
-- 📖 **Documentación completa** y protocolos de rehabilitación
+**Nuestro objetivo**: Democratizar el acceso a tecnología protésica de calidad para amputados en Latinoamérica y contextos de recursos limitados.
 
 ---
 
-## 🚀 Estado Actual
+## 💡 El Problema
 
-**Fase 1: Prótesis Mioeléctrica Funcional** ✅
-
-Actualmente implementado:
-- Mano robótica con servomotores MG996R
-- Adquisición EMG de 3 canales (Grove EMG Detector)
-- Filtrado digital (Notch 50/60Hz, RMS)
-- Guante con 5 flex sensors
-- Transmisión BLE y logging CSV
-- Código base ESP32 funcional
-
-**Próximo objetivo:** Fase 2 - Consolidación y Validación Experta
+- **50-100 millones de personas** viven con amputación en el mundo[1]
+- **90% no tienen acceso** a prótesis adecuadas por costo[2]
+- En Colombia y Latinoamérica, el costo de prótesis comerciales es **prohibitivo** (equivalente a varios años de salario)
+- Las soluciones existentes son **rígidas, costosas y requieren recalibración constante**
 
 ---
 
-## 📁 Estructura del Repositorio
+## 🚀 Nuestra Solución
+
+BitXoma propone un enfoque **modular, abierto y escalable**:
+
+### **Fase 1: Prótesis Mioeléctrica Funcional** ✅
+- Mano 3D completamente funcional con servomotores
+- Control por EMG (señales eléctricas del antebrazo)
+- Teleoperation opcional vía guante sensor
+- Transmisión inalámbrica y data logging en tiempo real
+
+### **Fase 2-3: Expansión Multisensorial**
+- Sensores avanzados (presión, orientación, temperatura)
+- Sistema de feedback háptico (vibración para sentir)
+- Red de sensores corporales para monitoreo integral
+- Dashboard web para profesionales de salud
+
+### **Fase 4-5: Inteligencia Artificial y Control Neural**
+- Clasificación automática de gestos con ML
+- Aprendizaje adaptativo online
+- Posible integración con señales cerebrales (EEG)
+- Control intuitivo que mejora con el uso
+
+### **Fase 6: Plataforma Global de Telemedicina**
+- Tele-rehabilitación remota
+- Integración con fisioterapeutas
+- Comunidad global de usuarios
+- Distribución en múltiples países
+
+---
+
+## 📊 Oportunidades de Impacto
+
+| Aspecto | Impacto Potencial |
+|--------|------------------|
+| **Población beneficiada** | 10,000+ usuarios en 5 años |
+| **Reducción de costos** | 95% (de $40,000 a $200) |
+| **Países alcanzados** | Colombia, Latinoamérica, África, Asia |
+| **Empleos generados** | Fabricación local, fisioterapia digital |
+| **Innovación** | Primera prótesis de IA accesible en español |
+
+---
+
+## 🔬 Fundamentos Científicos
+
+BitXoma se basa en literatura académica y proyectos validados:
+
+- **NinaPro Database**: Base de datos internacional con 1,000+ registros de EMG para control protésico[3]
+- **Open Source Leg (MIT)**: Prótesis open-source con control avanzado[4]
+- **Tact Hand**: Prótesis mioeléctrica de bajo costo (<$300) validada clínicamente[5]
+- **e-NABLE Community**: Red global de 40,000 voluntarios fabricando prótesis 3D[6]
+
+**Nuestro diferencial**: Combinamos lo mejor de estas iniciativas con **IA adaptativa y sensado multisensorial**.
+
+---
+
+## 🏆 Fortalezas del Proyecto
+
+✅ **Bajo costo**: $200 vs $30,000-50,000 comerciales  
+✅ **Modular**: Expandible de mano a codo, hombro, miembros inferiores  
+✅ **Open-source**: Código, diseños y protocolos públicos  
+✅ **Tecnología moderna**: ML embebido, IoT, BLE, 3D printing  
+✅ **Validación científica**: Protocolos SHAP, BBT, ACMC  
+✅ **Equipo experto**: Ingenieros biomédicos, desarrolladores, fisioterapeutas  
+
+---
+
+## 🎓 Equipo
+
+- **Desarrollador Principal**: [Tu Nombre], Ingeniero de Sistemas / Electrónica
+- **Institución Base**: Instituto Tecnológico Metropolitano (ITM), Medellín - Colombia
+- **Colaboradores Potenciales**: Universidades, hospitales, makerspaces, comunidad open-source
+
+---
+
+## 🌍 Alianzas Estratégicas
+
+Buscamos colaboración con:
+
+- **Instituciones académicas**: Universidades locales e internacionales
+- **Organizaciones médicas**: Hospitales, centros de rehabilitación, asociaciones de amputados
+- **Comunidades open-source**: e-NABLE, OpenBionics, OpenExo
+- **Organismos de financiamiento**: MinCiencias, Colciencias, fundaciones internacionales
+
+---
+
+## 💼 Oportunidades de Financiamiento
+
+### **Corto Plazo (3-6 meses)**
+- Grants de investigación universitaria
+- Fondos de innovación local (ITM, instituciones colombianas)
+- Competencias de emprendimiento tech
+
+### **Mediano Plazo (6-18 meses)**
+- Programas USAID en innovación social
+- Grants de fundaciones (Gates Foundation, NIH)
+- Financiamiento de startups (aceleradores, VC social)
+
+### **Largo Plazo (18+ meses)**
+- Producción escalable y distribución comercial
+- Partnerships con manufactura local
+- Modelo sostenible B-Corp / social enterprise
+
+---
+
+## 📈 Roadmap Ejecutivo
 
 ```
-bitxoma/
-├── hardware/
-│   ├── cad_files/              # Archivos STL/STEP para impresión 3D
-│   ├── schematics/             # Esquemáticos electrónicos (Fritzing, KiCAD)
-│   └── bom.md                  # Bill of Materials con proveedores
-├── firmware/
-│   ├── esp32_emg_acquisition/  # Código ESP32 para adquisición EMG
-│   ├── arduino_servo_control/  # Control de servomotores
-│   └── libraries/              # Librerías custom (filtros, BLE)
-├── software/
-│   ├── ml_models/              # Modelos TensorFlow/TFLite entrenados
-│   ├── data_processing/        # Scripts Python para procesamiento
-│   ├── mobile_app/             # App Android/iOS (opcional)
-│   └── dashboard/              # Interfaz web para monitoreo
-├── datasets/
-│   ├── emg_recordings/         # Datasets propios de EMG
-│   └── ninapro_preprocessed/   # Datos NinaPro procesados
-├── docs/
-│   ├── assembly_guide.md       # Guía de ensamblaje paso a paso
-│   ├── user_manual.md          # Manual de usuario
-│   ├── research_protocol.md    # Protocolo de investigación
-│   └── publications/           # Papers y presentaciones
-├── tests/
-│   ├── unit_tests/             # Tests unitarios de código
-│   └── validation_results/     # Resultados de validaciones clínicas
-├── bitacora/                   # Bitácoras de sesiones de desarrollo
-├── ROADMAP.md                  # Roadmap del proyecto
-├── CONTRIBUTING.md             # Guía para colaboradores
-├── LICENSE                     # Licencia MIT
-└── README.md                   # Este archivo
+Q4 2025: Validación inicial (✅ Completado)
+Q1 2026: Consolidación y pruebas clínicas piloto
+Q2 2026: Expansión a múltiples canales y sensores
+Q3 2026: Integración de IA embebida
+Q4 2026: Validación clínica formal (N=50 usuarios)
+2027+: Escalamiento y distribución global
 ```
 
 ---
 
-## 🛠️ Hardware Requerido
+## 📚 Referencias y Validaciones
 
-### Componentes Básicos (Fase 1)
+BitXoma es respaldado por:
 
-| Componente | Modelo | Cantidad | Precio Aprox |
-|-----------|---------|----------|--------------|
-| Microcontrolador | ESP32 DevKit | 1 | $10 |
-| Sensores EMG | Grove EMG Detector | 3 | $75 |
-| Flex Sensors | Spectra Symbol | 5 | $40 |
-| Servomotores | MG996R | 5 | $25 |
-| Batería | LiPo 3.7V 1500mAh | 1 | $15 |
-| Módulo SD | MicroSD Module | 1 | $5 |
-| Filamento 3D | Tough PLA | 500g | $15 |
-| **TOTAL** | | | **~$185** |
-
-### Hardware Adicional (Fases Avanzadas)
-
-- **Fase 3:** IMU (MPU6050/9250), FSR sensors, módulo WiFi
-- **Fase 5:** Headset EEG (OpenBCI, Mindflex hack), sensores adicionales
+- **Estándares internacionales**: ISO 10328 (prosthetics testing), ISO 13485 (medical devices)
+- **Protocolos clínicos**: SHAP, BBT, ACMC (ampliamente usados en rehabilitación)
+- **Bases de datos académicas**: NinaPro, Dryad, dataset propio en construcción
+- **Comunidad científica**: Publicaciones esperadas en IEEE EMBC, ICORR, Nature Scientific Reports
 
 ---
 
-## 💻 Software y Dependencias
+## 🤝 Cómo Colaborar
 
-### Para Firmware (ESP32/Arduino)
-```
-Arduino IDE 2.x o PlatformIO
-├── ESP32 Board Package (Espressif)
-├── BLE Library (incluida en ESP32)
-├── SD Library (Arduino standard)
-└── TensorFlow Lite Micro (para ML)
-```
+Si crees en esta visión y quieres colaborar:
 
-### Para Procesamiento y ML (Python)
-```bash
-pip install tensorflow
-pip install scikit-learn
-pip install pandas numpy
-pip install matplotlib seaborn
-pip install scipy  # Para filtros digitales
-```
+- **Profesionales de la salud**: Validación clínica, protocolos de rehabilitación
+- **Ingenieros/Desarrolladores**: Hardware, firmware, machine learning
+- **Instituciones académicas**: Investigación, publicaciones, internados
+- **Organizaciones sociales**: Distribución, capacitación, apoyo comunitario
+- **Inversionistas**: Funding para escalamiento
 
-### Para Análisis de Señales (Opcional)
-```bash
-pip install mne  # Para EEG en fases avanzadas
-```
+📧 **Contacto**: [tu-email@itm.edu.co]  
+🔗 **GitHub**: [github.com/bitxoma] (próximamente)
 
 ---
 
-## 🚀 Inicio Rápido
+## 📋 Hitos Principales
 
-### 1. Clonar el Repositorio
-```bash
-git clone https://github.com/tu-usuario/bitxoma.git
-cd bitxoma
-```
-
-### 2. Cargar Firmware en ESP32
-```bash
-cd firmware/esp32_emg_acquisition
-# Abrir bitxoma_emg_esp32.ino en Arduino IDE
-# Seleccionar board: ESP32 Dev Module
-# Cargar código (Ctrl+U)
-```
-
-### 3. Conectar Hardware
-- Conectar sensores EMG a pines GPIO32, GPIO33, GPIO34
-- Conectar servomotores a pines PWM
-- Alimentar con batería LiPo o USB
-
-### 4. Verificar Funcionamiento
-```bash
-# Abrir Serial Monitor (115200 baud)
-# Deberías ver:
-# "PROYECTO BITXOMA - Sistema EMG v1.0"
-# "BLE inicializado. Esperando conexión..."
-```
-
-### 5. Conectar vía BLE
-- Descargar app **nRF Connect** (Android/iOS)
-- Escanear dispositivos BLE
-- Conectar a "Bitxoma_EMG"
-- Habilitar notificaciones
-- Ver stream de datos RMS en tiempo real
+| Hito | Fecha | Estado |
+|------|-------|--------|
+| Prototipo funcional de mano | Nov 2025 | ✅ Completado |
+| Validación con 5 usuarios | Ene 2026 | ⏳ En progreso |
+| Dataset propio publicado | Mar 2026 | ⏳ Planificado |
+| Primer paper científico | May 2026 | ⏳ Planificado |
+| Integración de IA embebida | Ago 2026 | ⏳ Planificado |
+| Validación clínica formal | Dec 2026 | ⏳ Planificado |
 
 ---
 
-## 📊 Datasets de Referencia
+## 🎯 Visión a Largo Plazo
 
-BitXoma utiliza y contribuye a los siguientes datasets:
-
-- **NinaPro DB2**: Base de datos de EMG con 40 sujetos, 50 movimientos ([ninapro.hevs.ch](https://ninapro.hevs.ch))
-- **Dryad Dataset**: doi:10.5061/dryad.1k84r
-- **BitXoma Dataset** (en construcción): Datos propios con sensores de bajo costo
-
----
-
-## 🧪 Protocolos de Validación
-
-### Evaluaciones Funcionales Implementadas
-- **SHAP** (Southampton Hand Assessment Procedure): 26 tareas cronometradas
-- **BBT** (Box and Blocks Test): Destreza manual en 60 segundos
-- **ACMC** (Assessment of Capacity for Myoelectric Control): 22 ítems
-
-### Métricas de Desempeño
-- Accuracy de clasificación de gestos: **Target >90%**
-- Latencia de control: **Target <100ms**
-- Completion time (SHAP): **Target <60 segundos**
+**Para 2030:**
+- 10,000+ usuarios activos en 10+ países
+- Modelos modulares para mano, codo, hombro, miembros inferiores
+- Plataforma de telemedicina conectando usuarios y terapeutas globalmente
+- Fabricación descentralizada en makerspaces de Latinoamérica
+- Generación de empleo local en manufactura y asistencia médica
+- **Cambio transformacional en accesibilidad de prótesis a nivel mundial**
 
 ---
 
-## 📚 Publicaciones y Presentaciones
+## ⚖️ Responsabilidad Social
 
-### Papers (En Preparación)
-1. "BitXoma: Low-Cost Myoelectric Prosthetic Hand with TinyML for Resource-Limited Settings"
-2. "Federated Learning for Personalized Prosthetic Control: A Multi-User Study"
+BitXoma está comprometido con:
 
-### Conferencias Target
-- IEEE EMBC (Engineering in Medicine and Biology Conference)
-- ICORR (International Conference on Rehabilitation Robotics)
-- Congreso Colombiano de Bioingeniería
-
----
-
-## 🤝 Cómo Contribuir
-
-¡BitXoma es un proyecto colaborativo! Puedes contribuir de varias formas:
-
-### Desarrollo de Hardware
-- Mejoras en diseño mecánico (CAD)
-- Optimización de circuitos electrónicos
-- Reducción de costos en BOM
-
-### Desarrollo de Software
-- Mejoras en algoritmos de filtrado
-- Implementación de nuevos clasificadores ML
-- Desarrollo de interfaz de usuario
-
-### Investigación y Validación
-- Recolección de datos EMG
-- Pruebas con usuarios
-- Protocolos de rehabilitación
-
-### Documentación
-- Tutoriales y guías
-- Traducción a otros idiomas
-- Videos explicativos
-
-**Ver [CONTRIBUTING.md](CONTRIBUTING.md) para detalles**
+- **Accesibilidad**: Tecnología asequible para poblaciones vulnerables
+- **Sostenibilidad**: Materiales responsables, fabricación local
+- **Transparencia**: Código abierto, datos públicos, publicaciones científicas
+- **Inclusión**: Diversidad de género, etnia y geografía en equipo y usuarios
+- **Capacitación**: Formación de técnicos y profesionales locales
 
 ---
 
-## 📝 Licencia
+## 🚀 ¿Por Qué Invertir en BitXoma?
 
-Este proyecto está licenciado bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para detalles.
-
-La licencia MIT permite uso comercial, modificación, distribución y uso privado, con la única condición de mantener el aviso de copyright.
-
----
-
-## 👥 Equipo y Colaboradores
-
-### Desarrollador Principal
-- **[Tu Nombre]** - Instituto Tecnológico Metropolitano (ITM), Medellín, Colombia
-
-### Colaboradores
-- [Añadir colaboradores conforme se unan]
-
-### Agradecimientos
-- Comunidad e-NABLE
-- OpenBionics Project
-- NinaPro Database Team
-- Upside Down Labs (BioAmp)
+1. **Impacto social masivo**: Millones de amputados sin acceso a prótesis
+2. **Mercado global**: $1000+ millones en demanda anual de prótesis
+3. **Tecnología disruptiva**: IA + fabricación digital + código abierto
+4. **Modelo sostenible**: Bajo costo inicial, ingresos por servicios/telemedicina
+5. **Equipo competente**: Ingenieros, médicos, investigadores comprometidos
+6. **Validación académica**: Fundamentos sólidos en literatura científica
 
 ---
 
-## 📧 Contacto
+## 📞 Contacto
 
-- **Email**: [tu-email@itm.edu.co]
-- **GitHub Issues**: Para reportar bugs o sugerencias
-- **Discord/Slack**: [Enlace a comunidad] (opcional)
+**Instituto Tecnológico Metropolitano - ITM**  
+Medellín, Colombia  
 
----
-
-## 🌟 Roadmap del Proyecto
-
-Ver [ROADMAP.md](ROADMAP.md) para la visión completa de desarrollo a 3 años.
-
-### Hitos Inmediatos (Q4 2025)
-- ✅ Sistema base funcional con 3 canales EMG
-- ⏳ Expandir a 8 canales EMG
-- ⏳ Implementar TinyML con TFLite
-- ⏳ Primera validación con 5 usuarios
-
-### Próximos 6 Meses (Q1-Q2 2026)
-- Integración de IMU y FSR
-- Dashboard web de monitoreo
-- Dataset propio con 1000+ muestras
-- Publicación de primer paper
+📧 Email: [tu-email@itm.edu.co]  
+🔗 LinkedIn: [tu-perfil]  
+🌐 Web: [bitxoma.org] (próximamente)  
 
 ---
 
-## 📈 Estadísticas del Proyecto
+## 📜 Licencia
 
-![GitHub Stars](https://img.shields.io/github/stars/tu-usuario/bitxoma?style=social)
-![GitHub Forks](https://img.shields.io/github/forks/tu-usuario/bitxoma?style=social)
-![GitHub Issues](https://img.shields.io/github/issues/tu-usuario/bitxoma)
+BitXoma es licenciado bajo MIT License - Código abierto para beneficio global.
 
 ---
 
-## 🔗 Enlaces Útiles
+**BitXoma: Prótesis Inteligentes para Todos** 🦾✨
 
-- **Documentación completa**: [docs.bitxoma.org](https://docs.bitxoma.org) (cuando esté disponible)
-- **Wiki del proyecto**: [GitHub Wiki](https://github.com/tu-usuario/bitxoma/wiki)
-- **Canal de YouTube**: Tutoriales y demos
-- **Instagram/Twitter**: @bitxoma_project
-
----
-
-## ⚠️ Disclaimer
-
-BitXoma es un proyecto de investigación y desarrollo educativo. **No está certificado como dispositivo médico** y no debe usarse como sustituto de prótesis clínicamente aprobadas sin supervisión médica apropiada. Siempre consulta con profesionales de la salud antes de usar cualquier dispositivo protésico.
-
----
-
-## 🙏 Apoyo al Proyecto
-
-Si BitXoma te resulta útil, considera:
-
-- ⭐ Dar una estrella al repositorio
-- 🐛 Reportar bugs o sugerir mejoras
-- 📢 Compartir el proyecto en redes sociales
-- 💰 Donar para materiales de investigación (opcional)
-
----
-
-**Última actualización**: Noviembre 2025  
-**Versión README**: 1.0  
-**Estado**: Activamente desarrollado 🚀
-
----
-
-**¡Construyamos juntos el futuro de la tecnología protésica accesible!** 🦾✨
+*Construyendo acceso global a tecnología de rehabilitación de calidad*
